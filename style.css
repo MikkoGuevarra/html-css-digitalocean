@@ -3,11 +3,11 @@ body {
 }
 
 main {
-    padding-top: 90px;
+    padding-top: 50px;
 }
 
 section {
-    padding: 100px 0;
+    padding: 0;
 }
 
 h1, h2. h3. h4, h5, h6 {
@@ -128,15 +128,21 @@ h5 {
     border-bottom: 1px solid #f3f5f9;
     background-color: #f3f5f9;
     padding: 15px 0;
+    border-radius: 6px;
 }
 
 .form-section {
     background-color: #fff;
+    width: 100%;
+    margin: auto;
+    border-radius: 6px;
+    font-size: 16px;
 }
 
 .input-section {
-        margin: auto;
-        padding: 40px;
+    margin: auto;
+    padding: 20px;
+    border-bottom: 1px solid  #f3f5f9;
 }
 
 .form-group {
@@ -146,11 +152,70 @@ h5 {
 .form-control {
     padding: 25px 12px;
 }
+
+.btn-primary {
+    width: 100%;
+    padding: 20px 12px;
+}
+
+.btn-bottom {
+    margin: auto;
+    padding: 20px;
+}
+
+.form-section .btn {
+    font-size: 15px;
+}
+
+#google-btn {
+    width: calc(80% - 2px);
+    padding: 15px 12px;
+}
+
+#github-btn {
+    width: calc(20% - 2px);
+    padding: 15px 12px;
+    text-align: center;
+}
+
+.terms {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.terms small a {
+    font-size: 12px;
+    color: white;
+}
+
+/* .description {
+    padding: 150px 0;
+} */
+
+
+
 /* -----JUMBOTRON----- */
 
 /* -----MEDIAQUERY----- */
+@media (min-width: 576px) {
+    .btn-bottom {
+        padding: 40px;
+    }
+
+    .input-section {
+        padding: 40px;
+    }
+
+    .form-section {
+        width: 70%;
+    }
+
+}
 
 @media all and (min-width: 768px) {
+    main {
+        padding-top: 90px;
+    }
     .navbar-top {
         display: block;
     }
@@ -183,5 +248,13 @@ h5 {
     }
     .navbar-header {
         float: left;
+    }
+
+    section {
+        padding: 150px 0;
+    }
+
+    .description {
+        padding: 150px 0;
     }
 }
