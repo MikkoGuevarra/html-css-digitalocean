@@ -2,6 +2,28 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+main {
+    padding-top: 90px;
+}
+
+section {
+    padding: 100px 0;
+}
+
+h1, h2. h3. h4, h5, h6 {
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 31px;
+    line-height: 120%;
+}
+
+h5 {
+    font-size: 18px;
+    color: #031b4e;
+}
+
 
 /* -----NAVBAR TOP----- */
 
@@ -88,6 +110,44 @@ body {
 
 /* -----FINE NAVBAR BOTTOM----- */
 
+/* -----JUMBOTRON----- */
+#jumbotron {
+    background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+#jumbotron p {
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.form-title {
+    text-align: center;
+    border-bottom: 1px solid #f3f5f9;
+    background-color: #f3f5f9;
+    padding: 15px 0;
+}
+
+.form-section {
+    background-color: #fff;
+}
+
+.input-section {
+        margin: auto;
+        padding: 40px;
+}
+
+.form-group {
+    font-size: 16px;
+}
+
+.form-control {
+    padding: 25px 12px;
+}
+/* -----JUMBOTRON----- */
+
 /* -----MEDIAQUERY----- */
 
 @media all and (min-width: 768px) {
@@ -103,6 +163,13 @@ body {
     }
     .navbar-header {
         float: none;
+    }
+    h1 {
+        font-size: 58px;
+    }
+
+    #jumbotron {
+        text-align: left;
     }
 
 }
