@@ -12,7 +12,9 @@ body {
 .navbar-top {
     font-size: 12px;
     line-height: 12px;
-    padding: 12px 0;
+    padding-top: 12px;
+    border-bottom: 1px solid rgb(229,232,237);
+    display: none;
 }
 
 #new {
@@ -24,4 +26,40 @@ body {
 
 .business-link {
     display: inline-block;
+}
+
+.top-left {
+    float: left;
+    padding-top: 5px;
+}
+
+.top-right {
+    float: right;
+}
+
+.top-right li a {
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 10px;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #fafafa;
+    color: #006aff;
+}
+/* -----FINE NAVBAR TOP---- */
+
+/* -----NAVBAR BOTTOM----- */
+
+
+/* -----FINE NAVBAR BOTTOM----- */
+
+/* -----MEDIAQUERY----- */
+
+@media all and (min-width: 768px) {
+    .navbar-top {
+        display: block;
+    }
+
 }
