@@ -239,11 +239,15 @@ h6 {
 
 /* -----FINE LOGOS----- */
 /* -----DEPLOY----- */
-.deploy-description {
+.deploy-subtitle {
     font-size: 20px;
     text-align: center;
     color: #5b6987;
     margin-bottom: 50px;
+}
+
+.list-of-choices {
+    text-align: center;
 }
 
 .list-of-choices ul {
@@ -251,25 +255,33 @@ h6 {
 }
 
 .list-of-choices li {
-    padding-top: 20px;
-    border-left: 2px solid #dbdbdb;
+    padding: 0 5px;
+    border-bottom: 2px solid #dbdbdb;
+    display: inline-block;
 }
 
 .list-of-choices a {
-    padding: 15px 20px;
+    /* padding: 15px 20px; */
     color: rgba(3, 27, 78, 0.6);
-    font-size: 16px;
+    font-size: 10px;
     text-decoration: none;
     line-height: 30px;
-}
-
-.list-of-choices li:first-child {
-    border-left: 2px solid #006aff;
 }
 
 .list-of-choices li:first-child a {
     color: rgb(3, 27, 78);
 }
+
+.deploy-description {
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.deploy-description img {
+    margin-bottom: 10px;
+}
+
+
 /* -----FINE DEPLOY----- */
 
 /* -----MEDIAQUERY----- */
@@ -284,6 +296,10 @@ h6 {
 
     .form-section {
         width: 70%;
+    }
+
+    .list-of-choices a {
+        font-size: 16px;
     }
 
 }
@@ -313,6 +329,11 @@ h6 {
     #jumbotron {
         text-align: left;
     }
+
+    .list-of-choices li {
+        padding: 0 20px;
+    }
+
 }
 @media (min-width: 992px) {
     .navbar-nav {
@@ -333,4 +354,31 @@ h6 {
     .description {
         padding: 150px 0;
     }
+
+    .deploy-description {
+        text-align: left;
+    }
+
+    .list-of-choices li {
+        padding-top: 20px;
+        border-left: 2px solid #dbdbdb;
+        display: block;
+        border-bottom: none;
+    }
+
+    .list-of-choices a {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    .list-of-choices li:first-child a {
+        color: rgb(3, 27, 78);
+    }
+
+    .list-of-choices li:first-child {
+        border-left: 2px solid #006aff;
+    }
+
+
+
 }
