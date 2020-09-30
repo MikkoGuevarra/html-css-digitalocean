@@ -10,7 +10,7 @@ section {
     padding: 0;
 }
 
-h1, h2. h3. h4, h5, h6 {
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
 }
 
@@ -48,6 +48,10 @@ h5 {
 
 .business-link {
     display: inline-block;
+}
+
+.top-left a {
+    color: #5b6987;
 }
 
 .top-left {
@@ -121,6 +125,7 @@ h5 {
 #jumbotron p {
     font-size: 24px;
     line-height: 150%;
+    position: relative;
 }
 
 .form-title {
@@ -188,13 +193,17 @@ h5 {
     color: white;
 }
 
-/* .description {
-    padding: 150px 0;
-} */
+.btn-primary:hover {
+    color: #fff;
+    background-color: #1633ff;
+    transition: all 0.3s ease;
+}
 
+/* -----FINE JUMBOTRON----- */
 
+/* -----LOGOS----- */
 
-/* -----JUMBOTRON----- */
+/* -----FINE LOGOS----- */
 
 /* -----MEDIAQUERY----- */
 @media (min-width: 576px) {
@@ -231,12 +240,12 @@ h5 {
     }
     h1 {
         font-size: 58px;
+        padding-top: 50px;
     }
 
     #jumbotron {
         text-align: left;
     }
-
 }
 @media (min-width: 992px) {
     .navbar-nav {
