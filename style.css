@@ -239,7 +239,7 @@ h6 {
 
 /* -----FINE LOGOS----- */
 /* -----DEPLOY----- */
-.deploy-subtitle {
+.subtitle {
     font-size: 20px;
     text-align: center;
     color: #5b6987;
@@ -280,9 +280,54 @@ h6 {
 .deploy-description img {
     margin-bottom: 10px;
 }
-
-
 /* -----FINE DEPLOY----- */
+
+/* -----DESIGNS----- */
+#designs {
+    background-color: #f3f5f9;
+}
+
+#designs img {
+    max-width: 80%;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.arrow {
+    padding-top: 200px;
+}
+
+#carousel-desc {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #006aff;
+}
+
+.dot:first-child {
+    background-color: #006aff;
+}
+
+.dots {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/* -----FINE DESIGNS----- */
 
 /* -----MEDIAQUERY----- */
 @media (min-width: 576px) {
