@@ -24,6 +24,19 @@ h5 {
     color: #031b4e;
 }
 
+h6 {
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+    color: #5b6987;
+    padding-bottom: 30px;
+}
+
+#solution {
+    text-align: center;
+    padding-top: 30px;
+}
+
 
 /* -----NAVBAR TOP----- */
 
@@ -202,6 +215,19 @@ h5 {
 /* -----FINE JUMBOTRON----- */
 
 /* -----LOGOS----- */
+#logos-partners {
+    background-color: #f3f5f9;
+    padding: 50px 0;
+}
+
+.single-logo {
+    margin: auto;
+    text-align: center;
+}
+
+#solution a {
+    font-size: 16px
+}
 
 /* -----FINE LOGOS----- */
 
