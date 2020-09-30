@@ -3,11 +3,7 @@ body {
 }
 
 main {
-    padding-top: 50px;
-}
-
-section {
-    padding: 0;
+    padding-top: 30px;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -220,6 +216,19 @@ h6 {
     transition: all 0.3s ease;
 }
 
+.alert-info {
+      text-align: center;
+      background-color: rgb(3, 27, 78);
+      border-radius: 6px;
+      font-size: 15px;
+      padding: 5px;
+      color: white;
+      border-color: rgb(3, 27, 78);
+      margin-bottom: 30px;
+}
+
+
+
 /* -----FINE JUMBOTRON----- */
 
 /* -----LOGOS----- */
@@ -288,7 +297,7 @@ h6 {
 }
 
 #designs img {
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .img-container {
@@ -346,12 +355,11 @@ h6 {
     .list-of-choices a {
         font-size: 16px;
     }
-
 }
 
 @media all and (min-width: 768px) {
     main {
-        padding-top: 90px;
+        padding-top: 30px;
     }
     .navbar-top {
         display: block;
@@ -377,6 +385,10 @@ h6 {
 
     .list-of-choices li {
         padding: 0 20px;
+    }
+
+    #designs img {
+        max-width: 80%;
     }
 
 }
@@ -423,7 +435,4 @@ h6 {
     .list-of-choices li:first-child {
         border-left: 2px solid #006aff;
     }
-
-
-
 }
