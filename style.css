@@ -28,18 +28,27 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+    color: #5b6987;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+}
+
 h5 {
     font-size: 18px;
     color: #031b4e;
 }
 
 h6 {
-    font-size: 15px;
-    margin: auto;
+    color: #fff;
+    font-size: 16px;
     text-align: center;
-    color: #5b6987;
-    padding-bottom: 30px;
+    margin-bottom: 15px;
 }
+
 
 #solution {
     text-align: center;
@@ -498,6 +507,32 @@ h6 {
 }
 
 /* -----FINE GET STARTED----- */
+/* -----FOOTER----- */
+footer {
+    background-color: #010e28;
+    padding: 80px 0;
+}
+
+.footer-column a {
+    color: #768794;
+    text-decoration: none;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column li {
+    padding: 5px 8px;
+}
+
+.footer-column li:hover a {
+    color: #fff;
+}
+
+
+/* -----FINE FOOTER----- */
+
 
 /* -----MEDIAQUERY----- */
 @media (min-width: 576px) {
