@@ -227,8 +227,6 @@ h6 {
       margin-bottom: 30px;
 }
 
-
-
 /* -----FINE JUMBOTRON----- */
 
 /* -----LOGOS----- */
@@ -360,10 +358,61 @@ h6 {
     text-align: center;
     padding: 30px 0;
 }
-
-
-
 /* -----FINE BUSINESS DESCRIPTION----- */
+
+/* -----DATA CENTERS----- */
+#data-centers {
+    background: #031b4e url(https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg);
+    color: white;
+}
+
+#data-centers h2,
+#data-centers .subtitle
+ {
+    color: white;
+}
+
+#data-centers .subtitle a {
+    color: #0069ff;
+}
+
+
+#data-centers .subtitle a:hover {
+    color: #1633ff;
+    text-decoration: none;
+}
+
+.table>tbody>tr>td {
+    border-top: 0;
+    border-bottom: 1px solid #5b6987;
+}
+
+.speed {
+    text-align: right;
+}
+
+.speed a {
+    color: #00d7d2;
+}
+
+.city {
+    color: #5b6987;
+}
+
+.speed a::after {
+    content: "\f054";
+    font-weight: bold;
+    font-family: "Font Awesome 5 Free";
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+
+
+
+/* -----FINE DATA CENTERS----- */
 
 /* -----MEDIAQUERY----- */
 @media (min-width: 576px) {
