@@ -22,6 +22,12 @@ h2 {
     padding-bottom: 20px;
 }
 
+h3 {
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+}
+
 h5 {
     font-size: 18px;
     color: #031b4e;
@@ -435,6 +441,7 @@ h6 {
     border: 1px solid #f3f5f9;
     box-shadow: 0px 2px 4px rgba(1,14,40,0.05);
     border-radius: 6px;
+    margin-bottom: 50px;
 }
 
 .testimonials img {
@@ -473,6 +480,24 @@ h6 {
 }
 
 /* -----FINE TEAMS----- */
+
+/* -----GET STARTED----- */
+#get-started {
+    background-color: #0069ff;
+    background-image: url(https://prismic-io.s3.amazonaws.com/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg);
+}
+
+#get-started .btn {
+    background-color: #fff;
+    color: #0069ff;
+    max-width: 260px;
+}
+
+.account {
+    text-align: center;
+}
+
+/* -----FINE GET STARTED----- */
 
 /* -----MEDIAQUERY----- */
 @media (min-width: 576px) {
