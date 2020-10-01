@@ -342,6 +342,29 @@ h6 {
 
 /* -----FINE DESIGNS----- */
 
+/* -----BUSINESS DESCRIPTION----- */
+#business-description h5 {
+    padding: 10px 0;
+}
+
+#business-description p,
+#business-description a {
+    font-size: 16px;
+}
+
+#business-description i {
+    font-size: 14px;
+}
+
+.business-container {
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+
+/* -----FINE BUSINESS DESCRIPTION----- */
+
 /* -----MEDIAQUERY----- */
 @media (min-width: 576px) {
     .btn-bottom {
@@ -448,4 +471,15 @@ h6 {
     .list-of-choices li:first-child {
         border-left: 2px solid #006aff;
     }
+
+    .business-container {
+        margin-top: 30px;
+        text-align: left;
+        padding: 0;
+    }
+
+    #business-description p {
+        padding-right: 30px;
+    }
+
 }
