@@ -136,7 +136,7 @@ h6 {
     background-position: center;
     color: white;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 30px;
 }
 
 #jumbotron p {
@@ -264,7 +264,7 @@ h6 {
 }
 
 .list-of-choices li {
-    padding: 0 5px;
+    padding: 0 12px;
     border-bottom: 2px solid #dbdbdb;
     display: inline-block;
 }
@@ -272,7 +272,7 @@ h6 {
 .list-of-choices a {
     /* padding: 15px 20px; */
     color: rgba(3, 27, 78, 0.6);
-    font-size: 10px;
+    font-size: 12px;
     text-decoration: none;
     line-height: 30px;
 }
@@ -355,6 +355,10 @@ h6 {
     .list-of-choices a {
         font-size: 16px;
     }
+
+    .list-of-choices li:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 @media all and (min-width: 768px) {
@@ -381,6 +385,7 @@ h6 {
 
     #jumbotron {
         text-align: left;
+        padding-top: 100px;
     }
 
     .list-of-choices li {
