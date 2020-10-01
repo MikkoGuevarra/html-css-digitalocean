@@ -269,6 +269,10 @@ h6 {
     display: inline-block;
 }
 
+.list-of-choices li:hover a{
+    color: rgb(3, 27, 78);
+}
+
 .list-of-choices a {
     /* padding: 15px 20px; */
     color: rgba(3, 27, 78, 0.6);
@@ -423,9 +427,13 @@ h6 {
 
     .list-of-choices li {
         padding-top: 20px;
-        border-left: 2px solid #dbdbdb;
         display: block;
         border-bottom: none;
+        border-left: 2px solid #dbdbdb;
+    }
+
+    .list-of-choices li:hover {
+        border-left: 2px solid #006aff;
     }
 
     .list-of-choices a {
