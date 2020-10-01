@@ -537,6 +537,10 @@ h6 {
         font-size: 14px;
     }
 
+    .table td:nth-child(1) {
+        width: 70px;
+    }
+
 }
 @media (min-width: 992px) {
     .navbar-nav {
