@@ -415,6 +415,65 @@ h6 {
 
 /* -----FINE DATA CENTERS----- */
 
+/* -----TEAMS----- */
+#development-teams {
+    background-color: lightgrey;
+}
+.subtitle a {
+    color: #0069ff;
+}
+.subtitle a:hover {
+    text-decoration: none;
+    color: #1633ff;
+}
+
+.testimonials {
+    text-align: center;
+    border: 1px solid black;
+    background-color: #fff;
+    padding: 40px 0;
+    border: 1px solid #f3f5f9;
+    box-shadow: 0px 2px 4px rgba(1,14,40,0.05);
+    border-radius: 6px;
+}
+
+.testimonials img {
+    max-width: 200px;
+}
+
+.testimonials .story {
+    font-size: 24px;
+    padding-top: 30px;
+    color: #5b6987;
+    margin-bottom: 30px;
+}
+
+.testimonials a {
+    color: #0069ff;
+    font-size: 16px;
+}
+
+.testimonials a:hover {
+    color: #1633ff;
+    text-decoration: none;
+}
+
+.testimonials .name {
+    font-size: 16px;
+    color: #5b6987;
+    margin: 0;
+}
+
+.testimonials small {
+    color: lightgrey;
+}
+
+#development-team .arrow {
+    padding-top: 120px;
+}
+
+/* -----FINE TEAMS----- */
+
 /* -----MEDIAQUERY----- */
 @media (min-width: 576px) {
     .btn-bottom {
