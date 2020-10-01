@@ -389,6 +389,7 @@ h6 {
 
 .speed {
     text-align: right;
+    font-size: 12px;
 }
 
 .speed a {
@@ -407,10 +408,10 @@ h6 {
 
 .table {
     margin-bottom: 0;
+    max-width: 70%;
+    margin: auto;
+    font-size: 13px;
 }
-
-
-
 
 /* -----FINE DATA CENTERS----- */
 
@@ -470,6 +471,11 @@ h6 {
 
     #designs img {
         max-width: 80%;
+    }
+
+    .table {
+        max-width: 100%;
+        font-size: 14px;
     }
 
 }
