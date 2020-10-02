@@ -49,6 +49,11 @@ h6 {
     margin-bottom: 15px;
 }
 
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
 
 #solution {
     text-align: center;
@@ -83,6 +88,11 @@ h6 {
 
 .top-left a {
     color: #5b6987;
+}
+
+.top-left a:hover {
+    color: #006aff;
+    text-decoration: none;
 }
 
 .top-left {
@@ -148,7 +158,6 @@ h6 {
 /* -----JUMBOTRON----- */
 #jumbotron {
     background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
-    background-position: center;
     color: white;
     text-align: center;
     padding-top: 30px;
@@ -218,6 +227,7 @@ h6 {
 .terms {
     text-align: center;
     padding-top: 10px;
+    margin-bottom: 50px;
 }
 
 .terms small a {
@@ -270,10 +280,7 @@ h6 {
 
 .list-of-choices {
     text-align: center;
-}
-
-.list-of-choices ul {
-    list-style: none;
+    margin-bottom: 30px;
 }
 
 .list-of-choices li {
@@ -500,6 +507,7 @@ h6 {
     background-color: #fff;
     color: #0069ff;
     max-width: 260px;
+    margin-bottom: 20px;
 }
 
 .account {
@@ -517,11 +525,6 @@ footer {
     color: #768794;
     text-decoration: none;
     font-size: 14px;
-}
-
-.footer-column ul {
-    list-style: none;
-    padding-inline-start: 0;
 }
 
 .footer-column li {
