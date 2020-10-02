@@ -404,11 +404,6 @@ ul {
     text-decoration: none;
 }
 
-.table>tbody>tr>td {
-    border-top: 0;
-    border-bottom: 1px solid #5b6987;
-}
-
 .speed {
     text-align: right;
     font-size: 12px;
@@ -426,13 +421,6 @@ ul {
     content: "\f054";
     font-weight: bold;
     font-family: "Font Awesome 5 Free";
-}
-
-.table {
-    margin-bottom: 0;
-    max-width: 70%;
-    margin: auto;
-    font-size: 13px;
 }
 
 /* -----FINE DATA CENTERS----- */
@@ -651,15 +639,6 @@ footer {
 
     #designs img {
         max-width: 80%;
-    }
-
-    .table {
-        max-width: 100%;
-        font-size: 14px;
-    }
-
-    .table td:nth-child(1) {
-        width: 70px;
     }
 
     .social-icons:not(:last-child) {
