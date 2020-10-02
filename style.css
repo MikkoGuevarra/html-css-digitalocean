@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -51,7 +56,7 @@ h6 {
 
 ul {
     list-style: none;
-    padding-inline-start: 0;
+    /* padding-inline-start: 0; */
 }
 
 
@@ -425,7 +430,7 @@ ul {
 
 .table-row {
     border-bottom: 1px solid #5b6987;
-    width: 60%;
+    width: 100%;
     padding-bottom: 5px;
     padding-top: 10px;
     margin: auto;
@@ -654,7 +659,8 @@ footer {
     }
 
     .table-row {
-        width: 100%;
+        width: 70%;
+        margin: auto;
     }
 
 }
@@ -687,6 +693,7 @@ footer {
         display: block;
         border-bottom: none;
         border-left: 2px solid #dbdbdb;
+        text-align: left;
     }
 
     .list-of-choices li:hover {
@@ -718,5 +725,9 @@ footer {
 
     .bottom-right {
         text-align: right;
+    }
+
+    .table-row {
+        width: 90%;
     }
 }
