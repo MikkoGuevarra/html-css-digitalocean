@@ -555,6 +555,10 @@ footer {
     margin-right: 20px;
 }
 
+.footer-logo img {
+    max-width: 100%;
+}
+
 .bottom-right img {
     filter: invert(60%);
 }
@@ -572,7 +576,7 @@ footer {
 }
 
 .social-icons:not(:last-child) {
-    margin-right: 12px;
+    margin-right: 10px;
 }
 
 .bottom-left, .bottom-right {
@@ -656,6 +660,10 @@ footer {
 
     .table td:nth-child(1) {
         width: 70px;
+    }
+
+    .social-icons:not(:last-child) {
+        margin-right: 20px;
     }
 
 }
