@@ -423,6 +423,14 @@ ul {
     font-family: "Font Awesome 5 Free";
 }
 
+.table-row {
+    border-bottom: 1px solid #5b6987;
+    width: 60%;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin: auto;
+}
+
 /* -----FINE DATA CENTERS----- */
 
 /* -----TEAMS----- */
@@ -643,6 +651,10 @@ footer {
 
     .social-icons:not(:last-child) {
         margin-right: 20px;
+    }
+
+    .table-row {
+        width: 100%;
     }
 
 }
