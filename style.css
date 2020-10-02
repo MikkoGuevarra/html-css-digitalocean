@@ -45,7 +45,7 @@ h5 {
 h6 {
     color: #fff;
     font-size: 16px;
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 15px;
 }
 
@@ -510,26 +510,75 @@ h6 {
 /* -----FOOTER----- */
 footer {
     background-color: #010e28;
-    padding: 80px 0;
+    padding-top: 80px;
 }
 
 .footer-column a {
     color: #768794;
     text-decoration: none;
+    font-size: 14px;
 }
 
 .footer-column ul {
     list-style: none;
+    padding-inline-start: 0;
 }
 
 .footer-column li {
-    padding: 5px 8px;
+    padding: 3px 0;
 }
 
 .footer-column li:hover a {
     color: #fff;
 }
 
+.bottom-footer {
+    border-top: 1px solid #768794;
+    padding: 30px 0;
+}
+
+.top-footer {
+    padding-bottom: 30px;
+}
+.footer-logo, .copyright {
+    display: inline-block;
+}
+
+.copyright {
+    color: #768794;
+}
+
+.footer-logo {
+    margin-right: 20px;
+}
+
+.bottom-right img {
+    filter: invert(60%);
+}
+
+.bottom-right a:hover img {
+    filter: invert(100%);
+}
+
+.bottom-right ul {
+    list-style: none;
+}
+
+.social-icons {
+    display: inline-block;
+}
+
+.social-icons:not(:last-child) {
+    margin-right: 12px;
+}
+
+.bottom-left, .bottom-right {
+    text-align: center;
+}
+
+.bottom-left {
+    margin-bottom: 20px;
+}
 
 /* -----FINE FOOTER----- */
 
@@ -555,6 +604,11 @@ footer {
     .list-of-choices li:not(:last-child) {
         margin-right: 30px;
     }
+
+    .footer-column {
+        margin-bottom: 20px;
+    }
+
 }
 
 @media all and (min-width: 768px) {
@@ -660,4 +714,7 @@ footer {
         padding-right: 30px;
     }
 
+    .bottom-right {
+        text-align: right;
+    }
 }
